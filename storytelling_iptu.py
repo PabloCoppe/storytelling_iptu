@@ -65,15 +65,15 @@ st.markdown('Vai passando as abas e veja qual é o valor da TCL no seu bairro')
 tab1, tab2, tab3 = st.tabs(["Grupo 1", "Grupo 2", "Grupo 3"])
 
 with tab1:
-    st.header("Grupo 1 TCL = R$86,00")
-    st.image("UM.jpg", width=200)
+    st.markdown("TCL = R$86,00")
+    st.imade("UM.jpg", width=200)
 
 with tab2:
-    st.header("Grupo 2 TCL = R$172,00")
+    st.markdown("TCL = R$172,00")
     st.image("UM.jpg", width=200)
 
 with tab3:
-    st.header("Grupo 3 TCL = R$258,00")
+    st.markdown("TCL = R$258,00")
     st.image("UM.jpg", width=200)
 
 name = st.text_input('Gostou dessa história? Diz aí, deixe um comentário.')
