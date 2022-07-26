@@ -5,9 +5,9 @@ import numpy as np
 st.cache(suppress_st_warning=True)
 df = pd.read_csv('tresanoscorreto.csv')
 
-image1 = Image.open('C:/Users/WINDOWS/Documents/GitHub/desafios/labfaz.jpg')
+image1 = Image.open('labfaz.jpg')
 st.image(image1)
-image = Image.open('C:/Users/WINDOWS/Documents/GitHub/desafios/rio.jpg')
+image = Image.open('rio.jpg')
 st.image(image, caption='Rio de Janeiro')
 
 audio_file = open('samba2.mp4', 'rb')
