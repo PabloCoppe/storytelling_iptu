@@ -66,15 +66,15 @@ tab1, tab2, tab3 = st.tabs(["Grupo 1", "Grupo 2", "Grupo 3"])
 
 with tab1:
     st.markdown("TCL = R$86,00")
-    st.image("UM.jpg", width=100)
+    st.image("UM.jpg", width=1000)
 
 with tab2:
     st.markdown("TCL = R$172,00")
-    st.image("UM.jpg", width=100)
+    st.image("UM.jpg", width=1000)
 
 with tab3:
     st.markdown("TCL = R$258,00")
-    st.image("UM.jpg", width=100)
+    st.image("UM.jpg", width=1000)
 
 name = st.text_input('Gostou dessa história? Diz aí, deixe um comentário.')
 st.markdown('**Este samba é só porque. Rio, eu gosto de você**')
