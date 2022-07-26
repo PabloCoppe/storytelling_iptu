@@ -60,20 +60,20 @@ st.image(image33)
 st.header('A cidade das cores vibrantes não vibra com o lixo nas ruas')
 st.markdown('Junto ao IPTU é cobrada a TCL - Taxa de Coleta de Lixo')
 st.markdown('A TCL é a responsável por manter o lixo longe da passaigens do Rio')
-st.markdown('Vai passando as abas e veja qual é o valor da TCL no seu bairro')
+st.markdown('**Vai passando as abas e veja qual é o valor da TCL no seu bairro**')
 
 tab1, tab2, tab3 = st.tabs(["Grupo 1", "Grupo 2", "Grupo 3"])
 
 with tab1:
-    st.markdown("TCL = R$86,00")
+    st.markdown("Valor da Taxa da Coleta de Lixo  R$86,00")
     st.image("UM.jpg", width=500)
 
 with tab2:
-    st.markdown("TCL = R$172,00")
+    st.markdown("Valor da Taxa da Coleta de Lixo R$172,00")
     st.image("UM.jpg", width=500)
 
 with tab3:
-    st.markdown("TCL = R$258,00")
+    st.markdown("Valor da Taxa da Coleta de Lixo R$258,00")
     st.image("UM.jpg", width=500)
 
 name = st.text_input('Gostou dessa história? Diz aí, deixe um comentário.')
