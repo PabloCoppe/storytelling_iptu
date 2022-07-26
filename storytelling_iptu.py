@@ -1,4 +1,5 @@
 import streamlit as st 
+import plotly.express as px
 from PIL import Image
 import pandas as pd
 import numpy as np
@@ -36,7 +37,6 @@ st.map(mapa)
 st.header('Quem banca o equilíbrio das cores?')
 st.markdown('Não precisa pensar muito... tá na ponta da língua. O carioca,né?')
 dtipo2 = pd.read_csv('dtipo2.csv')
-import plotly.express as px
 fig = px.bar(dtipo2, x="Dono", y="Participação (%)", color="Dono", title="Divisão das Inscrições do IPTU do Rio")
 st.plotly_chart(fig)
 st.markdown('Então é o povão que paga? Não é bem assim..')
